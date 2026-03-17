@@ -1,0 +1,32 @@
+name: sreekaram
+description: Sreekaram Agritech App for Khammam District Farmers
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  cached_network_image: ^3.3.0
+  fl_chart: ^0.65.0
+  intl: ^0.18.1
+  url_launcher: ^6.2.2
+  geolocator: ^10.1.0
+  image_picker: ^1.0.4
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
